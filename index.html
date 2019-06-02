@@ -13,6 +13,20 @@
   <meta name="robots" content="NOINDEX, NOFOLLOW"> 
 
   <title>Welcome To Moovi</title>
+
+  <style>
+    .card {
+      border: 1px solid purple;
+      background: plum;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    .enhance {
+      color: bisque;
+      background-color: black;
+    }
+  </style>
 </head>
 
 
@@ -102,12 +116,49 @@
     <button type="reset">Reset</button>
   </form>
 
+  <!-- block Inline Elements -->
   <p style="border: 1px solid red">Block will takes whole screen</p>
 
   <p style="border: 1px solid red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi blanditiis, fugit iusto magnam maiores, necessitatibus quam, voluptates deserunt facere alias quas praesentium libero beatae exercitationem ut aperiam. Sint aperiam labore accusantium?</p>
 
   <a style="border: 1px solid limegreen" href="#">random link</a>
   <a style="border: 1px solid limegreen" href="#">random link 2</a>
+
+  <div id="main-header" class="card">
+    <h1>one step closer</h1>
+    <p>my day will come</p>
+  </div>
+
+  <!-- Divs, Classes & Ids -->
+  <ul id="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <div id="shop" class="card">
+    <h3>Shop</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quod vitae voluptatibus, laborum dicta cumque cupiditate eius nemo. Incidunt reiciendis sint assumenda aliquid aspernatur rerum.</p>
+  </div>
+
+  <div id="about" class="card">
+    <h3>About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur <span class="enhance"> adipisicing elit. Quidem </span> minus rem? Quod ab amet aut ad, magnam aliquid aliquam culpa!</p>
+  </div>
+
+  <div id="contact" class="card">
+    <h3>Contact Me!</h3>
+    <ul>
+      <li>Address: 43 Main St, Kawari, OSK</li>
+      <li>Phone: 0564574743</li>
+      <li>Email: Jidsi@gmail.com</li>
+    </ul>
+  </div>
+
+  <div id="footer">
+    <p>Copyright &copy; 2019</p>
+  </div>
 
 </body>
 
